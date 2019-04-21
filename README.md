@@ -1,2 +1,2 @@
 # petproject
-Spring Boot application exmple - pet clinic 
+Spring Boot application example - pet clinic 
