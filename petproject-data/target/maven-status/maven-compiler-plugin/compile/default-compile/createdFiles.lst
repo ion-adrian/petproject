@@ -1,0 +1,5 @@
+net/comdava/petproject/model/Person.class
+net/comdava/petproject/model/PetType.class
+net/comdava/petproject/model/Vet.class
+net/comdava/petproject/model/Owner.class
+net/comdava/petproject/model/Pet.class
