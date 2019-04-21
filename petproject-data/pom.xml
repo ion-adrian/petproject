@@ -12,7 +12,8 @@
     <artifactId>petproject-data</artifactId>
 
     <properties>
-        <start-class>net.comdava.petproject.PetprojectApplication</start-class>
+        <!--<start-class>net.comdava.petproject.PetprojectApplication</start-class>-->
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
 
     <dependencies>
@@ -47,7 +48,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
+        <!--        <executions>
                     <execution>
                         <goals>
                             <goal>repackage</goal>
@@ -56,7 +57,7 @@
                             <skip>true</skip>
                         </configuration>
                     </execution>
-                </executions>
+                </executions> -->
             </plugin>
         </plugins>
     </build>
