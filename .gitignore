@@ -1,6 +1,8 @@
 HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+/petproject-data/target/
+/petproject-data/target/
 
 ### STS ###
 .apt_generated
