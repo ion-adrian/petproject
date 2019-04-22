@@ -1,6 +1,6 @@
 package net.comdava.petproject.model;
 
-public class PetType extends BaseEntity{
+public class PetType extends net.comdava.petproject.model.BaseEntity {
     private String name;
 
     // getters

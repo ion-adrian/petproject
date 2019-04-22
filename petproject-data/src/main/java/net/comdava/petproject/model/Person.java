@@ -1,6 +1,6 @@
 package net.comdava.petproject.model;
 
-public class Person extends BaseEntity{
+public class Person extends net.comdava.petproject.model.BaseEntity {
     private String firstName;
     private String lastName;
 
