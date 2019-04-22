@@ -2,7 +2,6 @@ package net.comdava.petproject.service.map;
 
 import net.comdava.petproject.model.Pet;
 import net.comdava.petproject.service.CrudService;
-
 import java.util.Set;
 
 public class PetMapService extends AbstractMapService<Pet,Long>  implements CrudService<Pet,Long> {
