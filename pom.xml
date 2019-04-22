@@ -30,7 +30,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>net.comdava.petproject.PetprojectApplication</mainClass>
+					<skip>true</skip>
+					<mainClass>**undefined**</mainClass>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -40,6 +41,7 @@
 					<goals>install</goals>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
