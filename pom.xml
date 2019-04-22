@@ -15,7 +15,7 @@
 
 	<groupId>net.comdava</groupId>
 	<artifactId>petproject</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>petproject</name>
 	<description>Spring Boot application for a Pet Clinic</description>
 
@@ -41,7 +41,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/ion-adrian/petproject.git</developerConnection>
-	  <tag>pet-project-0.0.1-alpha</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 </project>
