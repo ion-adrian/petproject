@@ -2,9 +2,11 @@ package net.comdava.petproject.service.map;
 
 import net.comdava.petproject.model.Owner;
 import net.comdava.petproject.service.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerMapService extends AbstractMapService<Owner,Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
