@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="196.0" y="390.0">net.comdava.petproject.controller.OwnerController</node>
+    <node x="238.20833333333334" y="76.0">net.comdava.petproject.model.PetType</node>
+    <node x="757.0" y="319.0">net.comdava.petproject.service.OwnerService</node>
+    <node x="127.0" y="0.0">net.comdava.petproject.model.BaseEntity</node>
+    <node x="0.0" y="152.0">net.comdava.petproject.model.Owner</node>
+    <node x="0.0" y="319.0">net.comdava.petproject.service.map.VetMapService</node>
+    <node x="314.0" y="319.0">net.comdava.petproject.service.map.OwnerMapService</node>
+    <node x="101.0" y="152.0">net.comdava.petproject.model.Vet</node>
+    <node x="0.0" y="390.0">net.comdava.petproject.controller.IndexController</node>
+    <node x="105.25" y="223.0">net.comdava.petproject.service.map.AbstractMapService</node>
+    <node x="485.0" y="319.0">net.comdava.petproject.service.VetService</node>
+    <node x="392.0" y="390.0">net.comdava.petproject.controller.VetController</node>
+    <node x="43.20833333333334" y="76.0">net.comdava.petproject.model.Person</node>
+    <node x="151.20833333333334" y="76.0">net.comdava.petproject.model.Pet</node>
+    <node x="621.0" y="319.0">net.comdava.petproject.service.PetService</node>
+    <node x="423.625" y="223.0">net.comdava.petproject.service.CrudService</node>
+    <node x="157.0" y="319.0">net.comdava.petproject.service.map.PetMapService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="net.comdava.petproject.service.map.VetMapService" target="net.comdava.petproject.service.CrudService">
+      <point x="34.25" y="-13.0" />
+      <point x="102.75" y="279.0" />
+      <point x="433.875" y="279.0" />
+      <point x="-51.25" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.service.OwnerService" target="net.comdava.petproject.service.CrudService">
+      <point x="0.0" y="-13.0" />
+      <point x="822.0" y="279.0" />
+      <point x="536.375" y="279.0" />
+      <point x="51.25" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.service.map.OwnerMapService" target="net.comdava.petproject.service.CrudService">
+      <point x="37.75" y="-13.0" />
+      <point x="427.25" y="299.0" />
+      <point x="474.875" y="299.0" />
+      <point x="-10.25" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.service.map.PetMapService" target="net.comdava.petproject.service.map.AbstractMapService">
+      <point x="-34.25" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.service.map.PetMapService" target="net.comdava.petproject.service.CrudService">
+      <point x="34.25" y="-13.0" />
+      <point x="259.75" y="289.0" />
+      <point x="454.375" y="289.0" />
+      <point x="-30.75" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.service.map.VetMapService" target="net.comdava.petproject.service.map.AbstractMapService">
+      <point x="-34.25" y="-13.0" />
+      <point x="34.25" y="269.0" />
+      <point x="133.91666666666663" y="269.0" />
+      <point x="-57.33333333333337" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.model.Vet" target="net.comdava.petproject.model.Person">
+      <point x="0.0" y="-13.0" />
+      <point x="134.5" y="127.0" />
+      <point x="109.20833333333334" y="127.0" />
+      <point x="22.0" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.service.map.OwnerMapService" target="net.comdava.petproject.service.map.AbstractMapService">
+      <point x="-37.75" y="-13.0" />
+      <point x="351.75" y="269.0" />
+      <point x="248.58333333333337" y="269.0" />
+      <point x="57.33333333333337" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.service.VetService" target="net.comdava.petproject.service.CrudService">
+      <point x="0.0" y="-13.0" />
+      <point x="543.0" y="299.0" />
+      <point x="495.375" y="299.0" />
+      <point x="10.25" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.model.Person" target="net.comdava.petproject.model.BaseEntity">
+      <point x="0.0" y="-13.0" />
+      <point x="87.20833333333334" y="51.0" />
+      <point x="146.33333333333334" y="51.0" />
+      <point x="-38.66666666666666" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.model.Owner" target="net.comdava.petproject.model.Person">
+      <point x="0.0" y="-13.0" />
+      <point x="40.5" y="127.0" />
+      <point x="65.20833333333334" y="127.0" />
+      <point x="-22.0" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.model.Pet" target="net.comdava.petproject.model.BaseEntity">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.model.PetType" target="net.comdava.petproject.model.BaseEntity">
+      <point x="0.0" y="-13.0" />
+      <point x="285.70833333333337" y="51.0" />
+      <point x="223.66666666666666" y="51.0" />
+      <point x="38.66666666666666" y="13.0" />
+    </edge>
+    <edge source="net.comdava.petproject.service.PetService" target="net.comdava.petproject.service.CrudService">
+      <point x="0.0" y="-13.0" />
+      <point x="679.0" y="289.0" />
+      <point x="515.875" y="289.0" />
+      <point x="30.75" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="318.57142857142844" y="12.428571428571331" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

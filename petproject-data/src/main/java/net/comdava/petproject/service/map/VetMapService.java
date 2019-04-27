@@ -1,11 +1,11 @@
 package net.comdava.petproject.service.map;
 
 import net.comdava.petproject.model.Vet;
-import net.comdava.petproject.service.CrudService;
+import net.comdava.petproject.service.VetService;
 
 import java.util.Set;
 
-public class VetMapService extends AbstractMapService<Vet,Long> implements CrudService<Vet,Long> {
+public class VetMapService extends AbstractMapService<Vet,Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
@@ -30,4 +30,6 @@ public class VetMapService extends AbstractMapService<Vet,Long> implements CrudS
     public void deleteById(Long id) {
         super.deleteByID(id);
     }
+
+
 }

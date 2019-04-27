@@ -1,10 +1,11 @@
 package net.comdava.petproject.service.map;
 
 import net.comdava.petproject.model.Pet;
-import net.comdava.petproject.service.CrudService;
+import net.comdava.petproject.service.PetService;
+
 import java.util.Set;
 
-public class PetMapService extends AbstractMapService<Pet,Long>  implements CrudService<Pet,Long> {
+public class PetMapService extends AbstractMapService<Pet,Long>  implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
