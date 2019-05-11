@@ -9,6 +9,10 @@
 
     <artifactId>petproject-web</artifactId>
 
+    <properties>
+        <start-class>net.comdava.petproject.PetProjectApplication</start-class>
+    </properties>
+
     <dependencies>
         <dependency>
             <artifactId>petproject-data</artifactId>

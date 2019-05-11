@@ -23,7 +23,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<!--<start-class>net.comdava.petproject.PetProjectApplication</start-class>-->
+		<start-class>net.comdava.petproject.PetProjectApplication</start-class>
 	</properties>
 
 	<build>
