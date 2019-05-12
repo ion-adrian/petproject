@@ -1,13 +1,13 @@
 package net.comdava.petproject.service.map;
 
 import net.comdava.petproject.model.PetType;
-import net.comdava.petproject.service.PetTypeSevice;
+import net.comdava.petproject.service.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class PetTypeMapService extends AbstractMapService<PetType,Long> implements PetTypeSevice {
+public class PetTypeMapService extends AbstractMapService<PetType,Long> implements PetTypeService {
 
     @Override
     public Set<PetType> findAll() {
