@@ -11,9 +11,11 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
         return new HashSet<>(map.values());
     }
 
+
     T findByID(ID id) {
         return map.get(id);
     }
+
 
     T save(T object){
         if(object != null){
@@ -28,9 +30,11 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
         return object;
     }
 
+
     void deleteByID(ID id){
         map.remove(id);
     }
+
 
     void delete(T object){
         map.entrySet().removeIf(entry->entry.getValue().equals(object));
